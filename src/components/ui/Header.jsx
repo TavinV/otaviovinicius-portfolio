@@ -19,14 +19,21 @@ const socials = [
 const MobileMenu = ({ isOpen, toggleMenu }) => {
     if (!isOpen) return null;
     return (
-        <div className="absolute right-0 md:hidden flex flex-col z-20 top-16 w-fit h-fit bg-gray-900 shadow-md p-4 bg-opacity-25">
-            <ul className="flex flex-col items-end gap-6">
+        <div className="absolute left-0 md:hidden flex flex-col z-20 top-16 w-fit h-fit bg-black shadow-md p-8 pr-15 bg-opacity-25">
+            <ul className="flex flex-col items-start gap-6">
                 {nav.map((item) => (
 
                     <li className="hover:scale-105 transition-all ease-in text-white text-md" key={item} onClick={() => toggleMenu(false)}>
-                        <a href={`/${item.toLowerCase()}`}>{item}</a>
+                        <a href={`/${item?.name?.toLowerCase()}`}>{item}</a>
                     </li>
                 ))}
+                {
+                    socials.map((item) =>(
+                        <li className="hover:scale-105 transition-all ease-in text-white text-md" key={item} onClick={() => toggleMenu(false)}>
+                            <a href={`${item?.link?.toLowerCase()}`}>{item?.name}</a>
+                        </li>
+                    ))
+                }
             </ul>
         </div>
     );
@@ -35,8 +42,17 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <header className="flex w-full items-center justify-between p-4 text-white">
-            <h2 className="md:hidden text-sm font-bold">Otávio Vinícius</h2>
+        <header className="flex w-full bg-[#05041F] items-center justify-between p-4 text-white">
+            <div className="md:hidden flex">
+                <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-3xl text-gray-400 hover:text-gray-200 hover:scale-105 active:scale-100 transition ease-in">
+                    {isMenuOpen ? <IoMdClose /> : <IoMdMenu />}
+                </button>
+            </div>
+            {isMenuOpen && (
+                <MobileMenu isOpen={isMenuOpen} toggleMenu={setIsMenuOpen} />
+            )}
+
+            <h2 className="md:hidden text-sm font-bold">{"Otávio Vinícius"}</h2>
             <nav className="md:flex hidden">
                 <ul className="flex gap-4">
                     {socials.map((social) => (
@@ -62,14 +78,6 @@ const Header = () => {
                 <Button variant="bordered">Contato</Button>
             </div>
 
-            <div className="md:hidden flex">
-                <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-3xl text-gray-400 hover:text-gray-200 hover:scale-105 active:scale-100 transition ease-in">
-                    {isMenuOpen ? <IoMdClose /> : <IoMdMenu />}
-                </button>
-            </div>
-            {isMenuOpen && (
-                <MobileMenu isOpen={isMenuOpen} toggleMenu={setIsMenuOpen} />
-            )}
         </header>
     );
 };
