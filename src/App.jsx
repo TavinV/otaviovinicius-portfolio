@@ -1,6 +1,9 @@
 import { useState } from 'react'
+
 import Header from './components/ui/Header'
 import Background from './components/layout/Background'
+import MyPicture from './components/ui/MyPicutre'
+import Section from './components/layout/Section'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +12,9 @@ function App() {
       <>
       <Header />
       <Background />
+      <MyPicture />
+      <Section>
+
         <h1 className='text-amber-400'>Vite + React</h1>
         <div className="card">
           <button onClick={() => setCount((count) => count + 1)}>
@@ -21,6 +27,7 @@ function App() {
         <p className="read-the-docs">
           Click on the Vite and React logos to learn more
         </p>
+      </Section>
       </>
     
   )
