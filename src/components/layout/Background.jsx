@@ -146,10 +146,10 @@ const Squares = ({
 const Background = () => {
     return (
         <Squares 
-        speed={0.5} 
-        squareSize={40}
+        speed={0.2} 
+        squareSize={300}
         direction='up' // up, down, left, right, diagonal
-        borderColor='#2A2A41'
+        borderColor='#09082A'
         hoverFillColor='#0F0E28'
         />
     );
