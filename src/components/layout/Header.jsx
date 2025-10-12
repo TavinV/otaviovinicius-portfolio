@@ -12,8 +12,8 @@ import { TbBriefcase2Filled } from 'react-icons/tb';
 import { MdContactPage } from 'react-icons/md';
 import { FaPhoneAlt } from 'react-icons/fa';
 
-import Button from "./Button";
-import Logo from "./Logo";
+import Button from "../ui/Button";
+import Logo from "../ui/Logo";
 
 const IconLink = ({ icon, link, name }) => (
   <span className="flex justify-between items-center gap-3 text-white text-md">
@@ -81,7 +81,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex w-full bg-transparent items-center h-16 justify-between p-4 text-white sticky top-0 z-20">
+    <header className="flex w-full bg-transparent items-center h-16 justify-between p-4 text-white sticky top-0 z-20 backdrop-blur-2xl">
 
         <div className="md:hidden flex">
             <button

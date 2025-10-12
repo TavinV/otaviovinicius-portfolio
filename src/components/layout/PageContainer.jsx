@@ -1,1 +1,1 @@
-import Header from "../ui/Header";
+import Header from "./Header";

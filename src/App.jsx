@@ -1,11 +1,11 @@
 import { useState } from 'react'
 
-import Header from './components/ui/Header'
+import Header from './components/layout/Header'
 import Background from './components/layout/Background'
 import MyPicture from './components/ui/MyPicutre'
 import Section from './components/layout/Section'
-import Footer from './components/ui/Footer'
-import HeroSection from './components/ui/HeroSection'
+import Footer from './components/layout/Footer'
+import HeroSection from './components/layout/HeroSection'
 
 function App() {
   const [count, setCount] = useState(0)

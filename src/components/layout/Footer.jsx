@@ -1,4 +1,4 @@
-import MyPicture from "./MyPicutre";
+import MyPicture from "../ui/MyPicutre";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
