@@ -8,7 +8,7 @@ const phone = "+55 (11) 95023-1230";
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-black text-white">
+        <footer className="w-full bg-black text-white mt-32">
             <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* Coluna 1 */}
                 <div className="flex items-start gap-4">

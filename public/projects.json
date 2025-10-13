@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Helpdesk",
+        "description": "Plataforma que simula o fluxo de um serviço de suporte técnico de T.I, com abertura, acompanhamento e encerramento de chamados.",
+        "image": "/projectsImg/helpdesk.png",
+        "technologies": [
+            "MongoDB",
+            "Express.js",
+            "React",
+            "Node.js",
+            "JWT",
+            "TailwindCSS",
+            "Render",
+            "Vercel"
+        ],
+        "link": "https://helpdesk-gray.vercel.app",
+        "github": "https://github.com/tavinv/helpdesk"
+    },
+    {
+        "title": "Senai ID",
+        "description": "Sistema completo de controle de acesso à instituição de ensino, substituindo carteirinhas físicas por digitais, com gestão de entrada e saída, atrasos, etc.",
+        "image": "/projectsImg/senaiid.png",
+        "technologies": [
+            "MongoDB",
+            "Express.js",
+            "React",
+            "Node.js",
+            "JWT",
+            "TailwindCSS",
+            "Render",
+            "Cloudinary"
+        ],
+        "link": "https://senai-id.vercel.app",
+        "github": "https://github.com/TavinV/senai-id"
+    },
+    {
+        "title": "Dália Semijoias",
+        "description": "Plataforma de e-commerce de semijoias simples com controle completo de estoque e carrinho integrado ao WhatsApp.",
+        "image": "/projectsImg/daliasemijoias.png",
+        "technologies": [
+            "MongoDB",
+            "Express.js",
+            "React",
+            "Node.js",
+            "JWT",
+            "TailwindCSS",
+            "Render",
+            "Vercel",
+            "Cloudinary"
+        ],
+        "link": "https://dalia-semijoias.vercel.app",
+        "github": "https://github.com/TavinV/dalia-semijoias"
+    }
+]

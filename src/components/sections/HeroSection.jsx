@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const HeroButton = ({ variant, children, onClick, className }) => {
     const baseClasses =
-        "px-6 py-4 w-full sm:w-1/2 h-full rounded-sm font-medium transition-all duration-500 ease-in-out";
+        "px-2 py-4 w-[100%] sm:w-full h-full rounded-sm font-medium transition-all duration-500 ease-in-out";
 
     if (variant === "solid") {
         return (
@@ -25,7 +25,7 @@ const HeroButton = ({ variant, children, onClick, className }) => {
         return (
             <motion.button
                 onClick={onClick}
-                className={`${baseClasses} border border-[#4595FF] hover:bg-gradient-to-r hover:from-[#4595FF] hover:to-[#3B5CFF] hover:scale-102 hover:text-white ${className}`}
+                className={`${baseClasses} border border-[#4595FF] hover:text-blue-400 hover:from-[#4595FF] hover:to-[#3B5CFF] hover:scale-102  ${className}`}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
@@ -77,8 +77,14 @@ const HeroSection = () => {
 
             {/* Botões CTA */}
             <div className="mt-12 max-w-3xl w-full flex flex-col sm:flex-row justify-between gap-6">
-                <HeroButton variant="bordered">
-                    <FaDownload className="mr-2 inline" /> Baixe meu CV
+                <HeroButton variant="bordered" onClick={() =>{
+                    // Clicar no download-cv
+                    const downloadCv = document.getElementById("download-cv");
+                    downloadCv.click();
+                }}>
+                    <a id="download-cv" href="/curriculo-otavio-vinicius.pdf" download={"curriculo-otavio-vinicius.pdf"}>
+                        <FaDownload className="mr-2 inline" /> Baixe meu CV
+                    </a>
                 </HeroButton>
                 <HeroButton variant="solid">
                     <TbBriefcase2Filled className="mr-2 inline" /> Comece seu projeto
