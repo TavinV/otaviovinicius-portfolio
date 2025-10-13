@@ -54,7 +54,7 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
             duration: 0.35,
           }}
           className="absolute left-0 top-16 md:hidden flex flex-col z-20 w-full h-fit
-             bg-black/40 backdrop-blur-md shadow-md p-8 pr-15"
+             bg-black/100 backdrop-blur-2xl shadow-md p-8 pr-15"
         >
           <ul className="flex flex-col items-start gap-6">
             {menuLinks.map((item) => (
