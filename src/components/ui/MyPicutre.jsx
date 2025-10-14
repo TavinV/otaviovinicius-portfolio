@@ -10,7 +10,7 @@ const MyPicture = ({ height = "8" }) => {
   return (
     <img
       className={`${heights[height] || "h-8"} aspect-square rounded-full object-cover object-center overflow-hidden border-[#4595FF] border-2`}
-      src="tavin.jpeg"
+      src="/img/tavin.jpeg"
       alt="Minha foto"
     />
   );

@@ -15,7 +15,7 @@ const useTestimonials = () => {
                 }
                 const data = await response.json();
                 setTestimonials(data);
-
+                
             } catch (error) {
                 setError(error)
             } finally{

@@ -41,7 +41,7 @@ const ProjectCard = ({
                     {technologies.map((tech, index) => (
                         <div
                             key={index}
-                            className="flex items-center gap-1 bg-[#2a2a2a] text-gray-300 text-xs px-2 py-1 rounded-md border border-gray-600"
+                            className="flex items-center gap-1 bg-[#2a2a2a] text-gray-300 text-xs px-2 py-1 rounded-md border border-gray-600 hover:bg-gray-700 transition-all ease-in-out duration-500"
                         >
                             {getTechIcon(tech)}
                             <span>{tech}</span>

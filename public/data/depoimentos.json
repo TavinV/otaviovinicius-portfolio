@@ -1,18 +1,20 @@
 [
-    {
-      "nome": "Carla Mendes",
-      "ocupacao": "Microempresária",
-      "mensagem": "Precisava de um site que transmitisse credibilidade e tivesse formulários seguros para captação de leads. O Otávio não só entregou um design impecável, como integrou com CRM que simplificaram meu trabalho. Parceiro técnico de confiança!"
-    },
-    {
-      "nome": "Lucas Andrade",
-      "ocupacao": "Produtor Musical",
-      "mensagem": "Contratei o Otávio para desenvolver a plataforma da minha gravadora independente. Ele conseguiu unir design moderno com funcionalidades essenciais, como o gerenciamento de eventos e perfis de artistas. Superou todas as expectativas!"
-    },
-    {
-      "nome": "Renata Oliveira",
-      "ocupacao": "Gestora de Marketing",
-      "mensagem": "Trabalhar com o Otávio foi uma experiência excelente. Ele entendeu perfeitamente as necessidades da minha equipe e criou um sistema de relatórios automatizados que economiza horas de trabalho toda semana. Profissional extremamente competente e proativo!"
-    }
-  ]
-  
+  {
+    "nome": "Carla Mendes",
+    "ocupacao": "Microempresária",
+    "mensagem": "Precisava de um site que transmitisse credibilidade e tivesse formulários seguros para captação de leads. O Otávio não só entregou um design impecável, como integrou com CRM que simplificaram meu trabalho. Parceiro técnico de confiança!",
+    "imageUrl": "https://picsum.photos/seed/carla/200/200"
+  },
+  {
+    "nome": "Lucas Andrade",
+    "ocupacao": "Produtor Musical",
+    "mensagem": "Contratei o Otávio para desenvolver a plataforma da minha gravadora independente. Ele conseguiu unir design moderno com funcionalidades essenciais, como o gerenciamento de eventos e perfis de artistas. Superou todas as expectativas!",
+    "imageUrl": "https://picsum.photos/seed/lucas/200/200"
+  },
+  {
+    "nome": "Renata Oliveira",
+    "ocupacao": "Gestora de Marketing",
+    "mensagem": "Trabalhar com o Otávio foi uma experiência excelente. Ele entendeu perfeitamente as necessidades da minha equipe e criou um sistema de relatórios automatizados que economiza horas de trabalho toda semana. Profissional extremamente competente e proativo!",
+    "imageUrl": "https://picsum.photos/seed/renata/200/200"
+  }
+]

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import MyPicture from "../ui/MyPicutre";
 import { TbBriefcase2Filled } from "react-icons/tb";
 import { FaDownload } from "react-icons/fa";
@@ -83,7 +84,7 @@ const HeroSection = () => {
                     downloadCv.click();
                 }}>
                     <a id="download-cv" href="/curriculo-otavio-vinicius.pdf" download={"curriculo-otavio-vinicius.pdf"}>
-                        <FaDownload className="mr-2 inline" /> Baixe meu CV
+                        <FaDownload className="mr-2 inline" /> Baixar Currículo
                     </a>
                 </HeroButton>
                 <HeroButton variant="solid">
