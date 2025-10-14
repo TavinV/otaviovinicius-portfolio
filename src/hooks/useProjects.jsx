@@ -9,7 +9,7 @@ const useProjects = () => {
         const fetchProjects = async () => {
             setLoading(true);
             try {
-                const response = await fetch("/projects.json");
+                const response = await fetch("/data/projects.json");
                 if (!response.ok) {
                     throw new Error("Network response was not ok");
                 }

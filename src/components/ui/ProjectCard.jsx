@@ -17,7 +17,7 @@ const ProjectCard = ({
     return (
         <div className="bg-[#1f1f1f] border border-[#555] rounded-lg overflow-hidden shadow-lg flex flex-col hover:shadow-gray-800/30 hover:scale-105 transition-all ease-in-out duration-300">
             {/* Imagem */}
-            <div className="w-full h-56 overflow-hidden p-2 rounded-md">
+            <div className="w-full h-auto overflow-hidden p-2 rounded-md">
                 <img
                     src={image}
                     alt={title}
