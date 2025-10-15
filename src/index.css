@@ -33,3 +33,18 @@ body {
   background-size: 300% 100%;
   animation: gradient 8s ease infinite;
 }
+
+/* Adicione estas classes ao seu index.css existente */
+
+.service-card-gradient {
+  background: linear-gradient(135deg, #040060 0%, #05041F 100%);
+}
+
+.service-card-hover {
+  transition: all 0.3s ease;
+}
+
+.service-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(69, 149, 255, 0.2);
+}

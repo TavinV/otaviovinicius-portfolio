@@ -58,7 +58,7 @@ const TechSection = () => {
         <section className="w-full flex flex-col items-center py-12">
 
             <div className="flex flex-col items-center text-center px-6">
-                <h2 className="text-2xl font-semibold mb-4">Tecnologias Dominadas</h2>
+                <h2 className="text-2xl font-semibold mb-4">Tecnologias</h2>
                 <h2 className="text-xl text-center font-semibold mb-6">Ferramentas usadas para fazer o seu <TextType textColors={["#4595FF", "#3B5CFF"]} cursorCharacter="_" pauseDuration={2500} typingSpeed={75} text={["site", "sistema", "e-commerce", "negócio digital"]} className="text-blue-500"></TextType> ganhar vida</h2>
             </div>
             

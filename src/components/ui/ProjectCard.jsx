@@ -13,7 +13,7 @@ const ProjectCard = ({
     technologies = [],
 }) => {
     const [isHovered, setIsHovered] = useState(false);
-
+    
     return (
         <div className="bg-[#1f1f1f] border border-[#555] rounded-lg overflow-hidden shadow-lg flex flex-col hover:shadow-gray-800/30 hover:scale-105 transition-all ease-in-out duration-300">
             {/* Imagem */}

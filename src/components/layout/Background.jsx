@@ -149,7 +149,7 @@ const Background = () => {
         speed={0.2} 
         squareSize={300}
         direction='up' // up, down, left, right, diagonal
-        borderColor='#2A2A41'
+        borderColor='#1b1b2b'
         hoverFillColor='#0F0E28'
         />
     );

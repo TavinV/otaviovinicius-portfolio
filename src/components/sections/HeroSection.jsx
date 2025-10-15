@@ -4,6 +4,7 @@ import { TbBriefcase2Filled } from "react-icons/tb";
 import { FaDownload } from "react-icons/fa";
 import DecryptedText from "../ui/DecryptedText";
 import { motion } from "framer-motion";
+import { scrollTo } from "../../util/scrollTo"; 
 
 const HeroButton = ({ variant, children, onClick, className }) => {
     const baseClasses =
@@ -87,7 +88,7 @@ const HeroSection = () => {
                         <FaDownload className="mr-2 inline" /> Baixar Currículo
                     </a>
                 </HeroButton>
-                <HeroButton variant="solid">
+                <HeroButton variant="solid" onClick={() => scrollTo("serviços")}>
                     <TbBriefcase2Filled className="mr-2 inline" /> Comece seu projeto
                 </HeroButton>
             </div>

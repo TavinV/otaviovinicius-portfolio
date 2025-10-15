@@ -15,7 +15,9 @@ import { FaPhoneAlt } from "react-icons/fa";
 import Button from "../ui/Button";
 import Logo from "../ui/Logo";
 
-import { scrollTo } from "../../util/scrollTo"; // função de scroll suave
+import { contactForBusiness } from "../../services/whatsapp";
+
+import { scrollTo } from "../../util/scrollTo"; 
 
 const IconLink = ({ icon, name, link, onClick }) => (
   <span className="flex justify-between items-center gap-3 text-white text-md">
@@ -39,12 +41,30 @@ const socials = [
 const menuLinks = [
   { name: "Projetos", icon: <TbBriefcase2Filled />, link: "projetos" },
   { name: "Depoimentos", icon: <FaHeart />, link: "depoimentos" },
-  { name: "Serviços", icon: <FaWrench />, link: "servicos" },
-  { name: "Baixar CV", icon: <MdContactPage />, link: "sobre" },
-  { name: "Contato", icon: <FaPhoneAlt />, link: "contato" },
+  { name: "Serviços", icon: <FaWrench />, link: "serviços" },
+  { name: "Baixar CV", icon: <MdContactPage />, link: "-" },
+  { name: "Contato", icon: <FaPhoneAlt />, link: "serviços" },
 ];
 
 const MobileMenu = ({ isOpen, toggleMenu }) => {
+  const handleMenuClick = (item) => {
+    if (item.name === "Contato") {
+      contactForBusiness();
+      toggleMenu(false);
+      return;
+    }
+
+    if (item.name === "Baixar CV") {
+      const downloadCv = document.getElementById("download-cv");
+      if (downloadCv) downloadCv.click();
+      toggleMenu(false);
+      return;
+    }
+
+    scrollTo(item.link);
+    toggleMenu(false);
+  };
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -65,10 +85,7 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
               <li
                 key={item.name}
                 className="hover:scale-105 transition-all ease-in"
-                onClick={() => {
-                  scrollTo(item.link);
-                  toggleMenu(false);
-                }}
+                onClick={() => handleMenuClick(item)}
               >
                 <IconLink icon={item.icon} name={item.name} />
               </li>
@@ -78,7 +95,11 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
 
             {socials.map((social) => (
               <li key={social.name} className="hover:scale-105 transition-all ease-in">
-                <IconLink icon={social.icon} name={social.name} onClick={() => window.open(social.link, "_blank")} />
+                <IconLink
+                  icon={social.icon}
+                  name={social.name}
+                  onClick={() => window.open(social.link, "_blank")}
+                />
               </li>
             ))}
           </ul>
@@ -87,6 +108,7 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
     </AnimatePresence>
   );
 };
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -123,7 +145,7 @@ const Header = () => {
       </nav>
 
       <div className="md:flex hidden">
-        <Button variant="bordered" onClick={() => scrollTo("contato")}>
+        <Button variant="bordered" onClick={() => contactForBusiness()}>
           Contato
         </Button>
       </div>

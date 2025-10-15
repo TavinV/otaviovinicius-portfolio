@@ -1,9 +1,9 @@
-const Button = ({ children, onClick, variant = "solid" }) => {
+const Button = ({ children, onClick, variant = "solid", }) => {
     if (variant === "bordered") {
         return (
             <button
                 onClick={onClick}
-                className="px-6 py-2 h-full rounded-sm font-medium transition
+                className="px-6 py-2 w-full h-full rounded-sm font-medium transition
                    border border-[#4595FF] active:scale-100
                    hover:bg-gradient-to-r hover:from-[#4595FF] hover:to-[#3B5CFF] hover:scale-105 hover:text-white"
             >

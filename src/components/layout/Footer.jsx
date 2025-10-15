@@ -24,7 +24,7 @@ const Footer = () => {
                     <h3 className="text-lg font-semibold mb-3">Links Rápidos</h3>
                     <ul className="space-y-2 text-gray-300">
                         <li>
-                            <a href="#sobre" className="hover:text-white transition-colors">
+                            <a id="download-cv" href="/curriculo-otavio-vinicius.pdf" download={"curriculo-otavio-vinicius.pdf"} className="hover:text-white transition-colors">
                                 Baixar CV
                             </a>
                         </li>
@@ -34,7 +34,7 @@ const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="#servicos" className="hover:text-white transition-colors">
+                            <a href="#serviços" className="hover:text-white transition-colors">
                                 Serviços
                             </a>
                         </li>

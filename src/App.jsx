@@ -6,6 +6,7 @@ import HeroSection from './components/sections/HeroSection'
 import TechSection from './components/sections/TechSection'
 import ProjectsSection from './components/sections/ProjectsSection'
 import TestimonialSection from './components/sections/TestimonialSection'
+import ServicesSection from './components/sections/ServicesSection';
 
 import LoadingScreen from './components/ui/LoadingSection'
 
@@ -13,26 +14,27 @@ import useProjects from './hooks/useProjects'
 import useTestimonials from './hooks/useTestimonials'
 
 function App() {
-  const {loading: projectsLoading} = useProjects();
-  const {loading: testimonailsLoading} = useTestimonials();
+  // Todos os hooks no topo
+  const { loading: projectsLoading } = useProjects();
+  const { loading: testimonailsLoading } = useTestimonials();
 
   const isLoading = projectsLoading || testimonailsLoading;
 
-  if (isLoading){
+  if (isLoading) {
     return <LoadingScreen />
   }
 
   return (
-      <>
+    <>
       <Header />
       <Background />
       <HeroSection />
       <TechSection />
       <ProjectsSection />
       <TestimonialSection />
+      <ServicesSection />
       <Footer />
-      </>
-    
+    </>
   )
 }
 
