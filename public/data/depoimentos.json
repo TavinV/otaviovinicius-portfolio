@@ -1,9 +1,9 @@
 [
   {
-    "nome": "Carla Mendes",
-    "ocupacao": "Microempresária",
-    "mensagem": "Precisava de um site que transmitisse credibilidade e tivesse formulários seguros para captação de leads. O Otávio não só entregou um design impecável, como integrou com CRM que simplificaram meu trabalho. Parceiro técnico de confiança!",
-    "imageUrl": "https://picsum.photos/seed/carla/200/200"
+    "nome": "Bruno Messias Aguiar",
+    "ocupacao": "Instrutor de Ti, Professor",
+    "mensagem": "Tive o prazer de ser professor do Otávio no curso Técnico em Desenvolvimento de Sistemas do Senai e posso afirmar que ele é um talento nato. Desde o início, demonstrou uma inteligência acima da média e uma capacidade impressionante de transformar desafios complexos em soluções práticas e eficientes. Mais do que um aluno dedicado, Otávio já apresenta a postura, a ética e o raciocínio lógico de um excelente profissional de TI. Tenho plena confiança de que ele terá uma carreira brilhante e será um diferencial em qualquer equipe que integrar.",
+    "imageUrl": "/img/bruno_messias.jpg"
   },
   {
     "nome": "Lucas Andrade",
