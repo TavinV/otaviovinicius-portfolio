@@ -16,7 +16,7 @@ const TestimonialCard = ({img, name, occupation, message}) =>{
     return (
         <div className="flex pt-30 sm:pt-20 md:pt-40">
             <div className="flex flex-col relative items-center bg-white/10 backdrop-blur-sm w-full p-8 hover:scale-105 transition-all ease-in-out duration-500">
-                <img className="rounded-full w-3xs h-3xs absolute -top-30" src={img} alt={"Foto de " + name} />
+                <img className="rounded-full w-[200px] h-[200px] absolute -top-30" src={img} alt={"Foto de " + name} />
                 <div className="p-8 flex flex-col gap-4">
                     <span className="flex flex-col mt-10 text-center">
                         <h1 className="text-2xl">{name}</h1>
