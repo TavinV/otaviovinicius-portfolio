@@ -53,7 +53,7 @@ const SectionTitle = ({ title, subtitle }) => {
     return (
         <div className="flex flex-col items-center text-center">
             <GradientText colors={["#4595FF", "#3B5CFF"]} className="text-4xl font-semibold mb-2">{title}</GradientText>
-            <p className="text-xl text-gray-400">{subtitle}</p>
+            <p className="sm:text-xl w-[80%] text-md  text-gray-400">{subtitle}</p>
         </div>
     );
 };

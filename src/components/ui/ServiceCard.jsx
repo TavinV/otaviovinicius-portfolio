@@ -40,7 +40,10 @@ const ServiceCard = ({ title, description, icon, features }) => {
     const { contactAboutService } = useWhatsApp();
 
     return (
-        <div className="group bg-gray-900/40 backdrop-blur-lg rounded-xl p-6 border border-[#4595FF]/20 hover:border-[#4595FF]/50 transition-all duration-300 hover:transform hover:scale-105 cursor-pointer flex flex-col h-full">
+        <div className="group bg-gray-900/40 backdrop-blur-lg rounded-xl p-6 border border-[#4595FF]/20 hover:border-[#4595FF]/50 
+        transition-all duration-300 hover:transform hover:scale-102 cursor-pointer flex flex-col h-full active:scale-99" onClick={()=>{
+            contactAboutService(title)
+        }}>
             {/* Conteúdo superior que pode variar em altura */}
             <div className="flex-1 justify-between">
                 <div className="flex items-center mb-4">

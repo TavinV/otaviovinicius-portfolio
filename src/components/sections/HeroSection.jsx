@@ -53,16 +53,16 @@ const HeroSection = () => {
             {/* Saudação */}
             <div className="flex flex-col items-center mt-6 gap-2 text-center">
                 <motion.div initial={fadeUp} animate={fadeUpVisible}>
-                    <DecryptedText sequential={true} speed={40} animateOn="view" revealDirection="start" text="👋 Olá, eu me chamo Otávio Vinícius" />
+                    <DecryptedText sequential={true} speed={40} className="sm:text-xl text-xs" animateOn="view" revealDirection="start" text="👋 Olá, eu me chamo Otávio Vinícius" />
                 </motion.div>
                 <motion.div initial={fadeUp} animate={fadeUpVisible} transition={{ delay: 0.1 }}>
-                    <DecryptedText sequential={true} speed={40} animateOn="view" revealDirection="start" text="📍 Mogi das Cruzes - SP" />
+                    <DecryptedText sequential={true} speed={40} className="sm:text-xl text-xs" animateOn="view" revealDirection="start" text="📍 Mogi das Cruzes - SP" />
                 </motion.div>
             </div>
 
             {/* Apresentação */}
             <div className="mt-12 max-w-3xl w-full text-center flex flex-col gap-4">
-                <motion.p className="text-2xl font-semibold leading-snug" initial={fadeUp} animate={fadeUpVisible}>
+                <motion.p className="sm:text-2xl text-md font-semibold leading-snug" initial={fadeUp} animate={fadeUpVisible}>
                     Desenvolvedor{" "}
                     <span className="italic bg-gradient-to-r from-[#4595FF] to-[#3B5CFF] bg-clip-text text-transparent">
                         Web Full Stack
