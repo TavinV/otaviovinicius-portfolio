@@ -2,7 +2,7 @@
 
 👋 Olá! Eu sou Otávio Vinícius, Desenvolvedor Web Full Stack apaixonado por transformar problemas em soluções digitais.
 
-## [Acesse o meu portfolio](https://otaviovinicius-portfolio.vercel.app/)
+#### [Acesse o meu portfolio](https://otaviovinicius-portfolio.vercel.app/)
 ---
 
 ## Sobre mim
