@@ -2,6 +2,7 @@
 
 👋 Olá! Eu sou Otávio Vinícius, Desenvolvedor Web Full Stack apaixonado por transformar problemas em soluções digitais.
 
+## [Acesse o meu portfolio](https://otaviovinicius-portfolio.vercel.app/)
 ---
 
 ## Sobre mim
@@ -56,15 +57,6 @@ Plataforma de e-commerce de semijoias com controle completo de estoque e carrinh
 
 📧 otavioviniciusads@gmail.com  
 📞 +55 (11) 95023-1230
-
----
-
-## Links Rápidos
-
-- [Baixar Currículo](#)  
-- [LinkedIn](#)  
-- [GitHub](#)  
-- [Instagram](#)
 
 ---
 
