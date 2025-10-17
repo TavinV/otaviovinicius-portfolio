@@ -1,16 +1,71 @@
-# React + Vite
+# Portfólio de Otávio Vinícius
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👋 Olá! Eu sou Otávio Vinícius, Desenvolvedor Web Full Stack apaixonado por transformar problemas em soluções digitais.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre mim
 
-## React Compiler
+Sou concluinte do curso técnico em Desenvolvimento de Sistemas e possuo 6 anos de experiência em programação. Tenho como objetivo criar soluções eficientes e sob medida para empresas e negócios pessoais, ajudando a transformar ideias em sistemas funcionais e modernos.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📍 Localização: Mogi das Cruzes - SP
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias Utilizadas
+
+- MongoDB  
+- Express.js  
+- React  
+- Node.js  
+- JWT  
+- TailwindCSS  
+- Render  
+- Vercel  
+- Cloudinary  
+
+---
+
+## Projetos em Destaque
+
+### Helpdesk  
+Plataforma que simula o fluxo de um serviço de suporte técnico de T.I, com abertura, acompanhamento e encerramento de chamados.  
+[Demo](https://helpdesk-gray.vercel.app/) | [GitHub](github.com/tavinv/helpdesk)
+
+### Senai ID  
+Sistema completo de controle de acesso à instituição de ensino, substituindo carteirinhas físicas por digitais, com gestão de entrada, saída e atrasos.  
+[Demo](#) | [GitHub](github.com/tavinv/senai-id)
+
+### Dália Semijoias  
+Plataforma de e-commerce de semijoias com controle completo de estoque e carrinho integrado ao WhatsApp.  
+[Demo](https://dalia-semijoias.vercel.app/) | [GitHub](https://github.com/TavinV/dalia-semijoias)
+
+---
+
+## Serviços Oferecidos
+
+- **🌐 Sites Institucionais**: Desenvolvimento de websites profissionais com design responsivo, SEO otimizado e painel administrativo.  
+- **⚡ Sites Estáticos**: Sites rápidos, seguros e de alta performance para portfolios, landing pages e projetos simples.  
+- **⚙ Sistemas Diversos**: Soluções personalizadas para automação, controle de estoque, gestão comercial, entre outros.  
+- **🖥 Hospedagem de Sites**: Suporte com alta disponibilidade, SSL gratuito, backup diário e suporte 24/7.  
+- **🛒 E-commerce**: Lojas virtuais com catálogo, gestão de pedidos, controle de estoque e gateway de pagamento.  
+- **📈 Consultoria em TI**: Análise, planejamento, treinamento e suporte contínuo para implementação de soluções tecnológicas.
+
+
+## Contato
+
+📧 otavioviniciusads@gmail.com  
+📞 +55 (11) 95023-1230
+
+---
+
+## Links Rápidos
+
+- [Baixar Currículo](#)  
+- [LinkedIn](#)  
+- [GitHub](#)  
+- [Instagram](#)
+
+---
+
+© 2025 Otávio Vinícius Flauzino de Souza. Todos os direitos reservados.
