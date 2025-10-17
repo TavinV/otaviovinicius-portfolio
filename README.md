@@ -30,11 +30,11 @@ Sou concluinte do curso técnico em Desenvolvimento de Sistemas e possuo 6 anos 
 
 ### Helpdesk  
 Plataforma que simula o fluxo de um serviço de suporte técnico de T.I, com abertura, acompanhamento e encerramento de chamados.  
-[Demo](https://helpdesk-gray.vercel.app/) | [GitHub](github.com/tavinv/helpdesk)
+[Demo](https://helpdesk-gray.vercel.app/) | [GitHub](https://github.com/tavinv/helpdesk)
 
 ### Senai ID  
 Sistema completo de controle de acesso à instituição de ensino, substituindo carteirinhas físicas por digitais, com gestão de entrada, saída e atrasos.  
-[Demo](#) | [GitHub](github.com/tavinv/senai-id)
+[Demo](#) | [GitHub](https://github.com/tavinv/senai-id)
 
 ### Dália Semijoias  
 Plataforma de e-commerce de semijoias com controle completo de estoque e carrinho integrado ao WhatsApp.  
