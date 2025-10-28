@@ -35,7 +35,7 @@ const servicesData = [
         title: "E-commerce",
         description: "Lojas virtuais completas com catálogo de produtos, gestão de pedidos, controle de estoque e muito mais.",
         icon: "Cart",
-        features: ["Gateway de pagamento", "Gestão de estoque", "Relatórios de vendas", "Mobile first"]
+        features: ["Gestão de estoque", "Relatórios de vendas", "Mobile first"]
     },
     {
         id: 6,
