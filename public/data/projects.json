@@ -50,5 +50,23 @@
         ],
         "link": "https://dalia-semijoias.vercel.app",
         "github": "https://github.com/TavinV/dalia-semijoias"
+    },
+    {
+        "title": "Monitoramento de Energia",
+        "description": "Sistema de monitoramento em tempo real desenvolvido para captar e analisar dados de consumo energético por meio de um ESP32, armazenando-os no MongoDB e exibindo visualizações dinâmicas através de uma interface React responsiva.",
+        "image": "/projectsImg/monitoramentoenergia.png",
+        "technologies": [
+            "Esp32",
+            "Node.js",
+            "Express.js",
+            "React",
+            "TailwindCSS",
+            "MongoDB",
+            "Chart.js",
+            "Vercel",
+            "Render"
+        ],
+        "link": "https://monitoramento-energia.vercel.app/",
+        "github": "https://github.com/TavinV/monitoramento-energia"
     }
 ]

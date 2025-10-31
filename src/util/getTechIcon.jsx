@@ -9,6 +9,8 @@ import {
     SiCloudinary
 } from "react-icons/si";
 
+import { FaMicrochip } from 'react-icons/fa6';
+
 export function getTechIcon(tech) {
     const normalized = tech.toLowerCase();
     const baseClass = "text-white text-xl";
@@ -35,6 +37,10 @@ export function getTechIcon(tech) {
             return <SiVercel className={baseClass} />;
         case "cloudinary":
             return <SiCloudinary className={baseClass} />;
+        case "esp32":
+            return <FaMicrochip className={baseClass} />;
+        case "chart.js":
+            return <img src="/img/chartjs.png" className="w-4 h-4 filter invert"></img>
         default:
             return <FaCloudversify className={baseClass} />;
     }
