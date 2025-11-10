@@ -28,7 +28,7 @@ const servicesData = [
         title: "Hospedagem de Sites",
         description: "Suporte para hospedagem de sites com alta disponibilidade, garantindo que seu site esteja sempre online e acessível para seus clientes.",
         icon: "Server",
-        features: ["99.9% uptime", "SSL gratuito", "Backup diário", "Suporte 24/7"]
+        features: ["Consultoria inclusa", "Backup diário", "Suporte 24/7"]
     },
     {
         id: 5,

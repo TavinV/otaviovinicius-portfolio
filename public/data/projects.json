@@ -68,5 +68,22 @@
         ],
         "link": "https://monitoramento-energia.vercel.app/",
         "github": "https://github.com/TavinV/monitoramento-energia"
+    },
+    {
+        "title": "Protocolo SMEFCC",
+        "description": "Sistema de controle e rastreamento de documentos e processos internos da instituição, permitindo o registro, movimentação e acompanhamento de protocolos de forma digital e segura.",
+        "image": "/projectsImg/protocolo.png",
+        "technologies": [
+            "MongoDB",
+            "Express.js",
+            "React",
+            "Node.js",
+            "JWT",
+            "TailwindCSS",
+            "Render",
+            "Vercel"
+        ],
+        "link": "https://protocolo-smefcc.vercel.app/",
+        "github": "https://github.com/tavinv/protocolo-smefcc"
     }
 ]

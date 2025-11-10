@@ -47,7 +47,7 @@ const HeroSection = () => {
 
             {/* Foto */}
             <motion.div initial={fadeUp} animate={fadeUpVisible}>
-                <MyPicture height="32" />
+                <MyPicture height="48" />
             </motion.div>
 
             {/* Saudação */}
@@ -71,9 +71,6 @@ const HeroSection = () => {
                     <span className="italic bg-gradient-to-r from-[#4595FF] to-[#3B5CFF] bg-clip-text text-transparent">
                         soluções digitais
                     </span>.
-                </motion.p>
-                <motion.p className="text-gray-300 leading-relaxed text-xs" initial={fadeUp} animate={fadeUpVisible} transition={{ delay: 0.1 }}>
-                    Concluinte do curso técnico em desenvolvimento de sistemas com 6 anos de experiência em programação. Empenhado em criar soluções eficientes sob medida para a sua empresa ou negócio pessoal.
                 </motion.p>
             </div>
 
